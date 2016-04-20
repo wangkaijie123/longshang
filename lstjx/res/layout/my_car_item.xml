@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_adapter_list_car"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:src="@drawable/lingshi1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_chexing"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="车型 :"
+                android:textColor="@color/background_black" />
+
+            <TextView
+                android:id="@+id/tv_chechang"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="车长 :"
+                android:textColor="@color/background_black" />
+
+            <TextView
+                android:id="@+id/tv_zaizhong"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="载重 :"
+                android:textColor="@color/background_black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

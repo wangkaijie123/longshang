@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_white" >
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/dynamic_detail_headimg_width"
+            android:layout_height="@dimen/dynamic_detail_headimg_height"
+            android:src="@drawable/lingshi1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="测试"
+            android:textSize="@dimen/dynamic_detail_comment_textsize" />
+
+        <ImageView
+            android:layout_width="@dimen/dynamic_detail_ic_sex_hight"
+            android:layout_height="@dimen/dynamic_detail_ic_sex_width"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_sex_female" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/dynamic_detail_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5146513131231"
+        android:textSize="@dimen/dynamic_detail_comment_textsize" />
+
+</LinearLayout>

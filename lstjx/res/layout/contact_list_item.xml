@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="90dip"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:background="#D6D6D6"
+        android:paddingBottom="2dip"
+        android:paddingLeft="13dip"
+        android:paddingTop="2dip"
+        android:text="2131231232"
+        android:textColor="@color/mGray"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/item_contactlist_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/item_contactlist_img"
+            android:layout_centerVertical="true"
+            android:padding="10dip"
+            android:text="2131231232"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

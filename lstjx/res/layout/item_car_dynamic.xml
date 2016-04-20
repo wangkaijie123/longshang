@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_click"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@color/background_white"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/userface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qq" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/userface"
+            android:background="@color/background_white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/uname"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="uname"
+                android:textColor="@color/background_black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@color/background_white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chexing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="chexing"
+                    android:textColor="@color/actionsheet_gray" />
+
+                <TextView
+                    android:id="@+id/chechang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="chechang"
+                    android:textColor="@color/actionsheet_gray" />
+
+                <TextView
+                    android:id="@+id/zaizhong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="zaizhong"
+                    android:textColor="@color/actionsheet_gray" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/xinprngyou_jieshou"
+            android:gravity="center"
+            android:text="聊天"
+            android:textColor="@color/text_white"
+            android:textSize="13dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:background="@color/background_white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/fachedi" />
+
+            <TextView
+                android:id="@+id/starting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="出发地"
+                android:textColor="@color/actionsheet_gray"
+                android:textSize="12dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/mudidi" />
+
+            <TextView
+                android:id="@+id/ending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="目的地"
+                android:textColor="@color/actionsheet_gray"
+                android:textSize="12dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shijian" />
+
+            <TextView
+                android:id="@+id/startime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="出发时间"
+                android:textColor="@color/actionsheet_gray"
+                android:textSize="12dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dip"
+            android:scrollHorizontally="false"
+            android:text="content"
+            android:textColor="@color/actionsheet_gray" />
+
+        <com.lst.lstjx.view.MyGridView
+            android:id="@+id/more_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="5dp" >
+        </com.lst.lstjx.view.MyGridView>
+
+        <TextView
+            android:id="@+id/carDynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" 
+            android:text="查看车辆详情"
+            android:textSize="12sp"
+            android:textColor="@color/text_red"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:background="@color/background_white" >
+
+            <TextView
+                android:id="@+id/addtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:text="addtime"
+                android:textColor="@color/actionsheet_gray" />
+
+            <ImageView
+                android:id="@+id/fenxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/goods_fenxiang" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

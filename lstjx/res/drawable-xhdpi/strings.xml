@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">再议</string>
+    <string name="my_dt">我的动态</string>
+    <string name="my_sp">我的商品</string>
+    <string name="nearPeople">附近的人</string>
+    <string name="sendSP">发布商品</string>
+    <string name="applyFor">申请商家</string>
+    <string name="set">设置</string>
+    <string name="mine">我的</string>
+    <string name="contactlist">通讯录</string>
+    <string name="user_id">id</string>
+    <string name="user_ID">ID:</string>
+    <string name="userName">name</string>
+
+    
+    <string name="head">头像</string>
+    <string name="Name">名字</string>
+    <string name="userNumber">约我号</string>
+    <string name="userPhone">电话</string>
+    <string name="userSex">性别</string>
+    <string name="userLocation">我的位置</string>
+
+    
+    <string name="set_password">修改密码</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="contact_us">联系客服</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="about_to_me">关于约我</string>
+    <string name="logout">退出登录</string>
+    <string name="about_me">个人信息</string>
+    <string name="save">保存</string>
+    <string name="set_uer_name">姓名</string>
+    <string name="set_uer_sex">性别</string>
+
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    
+</resources>

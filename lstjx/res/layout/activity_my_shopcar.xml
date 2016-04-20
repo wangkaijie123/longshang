@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_color"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/shopcar_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/title_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="购物车"
+            android:textColor="@color/background_white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/main_title_tv_ed"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:text="编辑"
+            android:textColor="@color/background_white" />
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#19000000"
+        android:dividerHeight="0.5dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbars="none"
+        android:smoothScrollbar="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/title_color" />
+
+    <LinearLayout
+        android:id="@+id/lin_shopcar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/background_white"
+        android:orientation="horizontal" 
+        android:layout_gravity="bottom">
+        <CheckBox
+            android:id="@+id/cb_shopcar_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="全选"
+            android:textColor="@color/background_black" />
+
+        <TextView
+            android:id="@+id/tv_shopcar_Allprice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="合计：￥0.0"
+            android:textColor="@color/text_red" />
+
+        <Button
+            android:id="@+id/tv_shopcar_buy_or_del"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/login_btn_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="结算"
+            android:textColor="@color/background_white" />
+    </LinearLayout>
+
+</LinearLayout>

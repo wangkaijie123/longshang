@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF" >
+
+        <TextView
+            android:id="@+id/tv_more_photo_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_more_photo_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="发布"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/publish_dynamic_photo_et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/common_bg"
+        android:hint="请输入标题，不超过15字..."
+        android:singleLine="true"
+        android:textSize="13sp" />
+
+    <EditText
+         android:id="@+id/publish_dynamic_photo_et_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/common_bg"
+        android:gravity="top"
+        android:hint="请输入内容，不超过100字.."
+        android:singleLine="true"
+        android:textSize="13sp" />
+    <ImageView
+         android:id="@+id/more_photo_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/xiangce" />
+
+    <Button
+        android:id="@+id/choose_photo_more_photo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/choose_photo_selector"
+        android:text="选择照片"
+        android:textColor="@color/background_white" />
+
+</LinearLayout>

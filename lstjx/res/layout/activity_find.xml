@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="top|center"
+        android:background="@color/titele_color" >
+
+        <ImageView
+            android:id="@+id/prodetail_goback"
+            android:layout_width="18dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/title_back" />
+
+        <TextView
+            android:id="@+id/main_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="龙商家政"
+            android:textColor="@color/background_white"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/shaixuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/shaixuan"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_1"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@color/background_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/onclick_tv_dynamic"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/str_dynamic"
+            android:textColor="@color/titele_color_more"
+            android:textSize="@dimen/textSize_20username" />
+
+        <TextView
+            android:id="@+id/onclick_tv_goods"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/str_goods"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_20username" />
+
+        <TextView
+            android:id="@+id/onclick_tv_qunliao"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/str_qun"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_20username" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@color/background_gray1">
+
+        <RelativeLayout
+            android:id="@+id/show_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bn_fb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/but_fabu"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</LinearLayout>

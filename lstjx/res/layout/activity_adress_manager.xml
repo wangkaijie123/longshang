@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -107,3 +108,100 @@
     </RelativeLayout>
 
 </RelativeLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/background_white"
+   >
+ <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="top|center"
+            android:background="@color/titele_color"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/go_back"
+                    android:layout_width="18dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/title_back" />
+                <TextView
+                    android:id="@+id/addAdress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                   
+                    android:onClick="addClick"
+                    android:text="添加"
+                    android:textColor="@color/background_white"
+                    android:textSize="17dp" />
+
+                <TextView
+                    
+                    android:id="@+id/main_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="收货地址管理"
+                    android:textColor="@color/background_white"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:id="@+id/noaddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center|center_vertical"
+                android:src="@drawable/mystore_address_null" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="暂无收货地址"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/haveaddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/my_adress_lv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="@color/mTest"
+                android:dividerHeight="0.8dp" >
+            </ListView>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605

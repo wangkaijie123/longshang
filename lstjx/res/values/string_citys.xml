@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
@@ -24,3 +25,31 @@
 
 ]</string>
 </resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="citys">[
+
+{label:"永康Yongkang0579",name:"王维达",pinyin:"w",zip:"0579"},
+{label:"邕宁Yongning0771",name:"你猜猜",pinyin:"n",zip:"0771"},
+{label:"永泰Yongtai0591",name:"哈喽喽",pinyin:"h",zip:"0591"},
+{label:"永新Yongxin0796",name:"古德白",pinyin:"g",zip:"0796"},
+{label:"永修Yongxiu0792",name:"清风徐来",pinyin:"q",zip:"0792"},
+{label:"尤溪Youxi0598",name:"日落归",pinyin:"r",zip:"0598"},
+{label:"酉阳Youyang023",name:"君不见",pinyin:"j",zip:"023"},
+{label:"元氏Yuanshi0311",name:"一头白发",pinyin:"y",zip:"0311"},
+{label:"禹城Yucheng0534",name:"围城",pinyin:"w",zip:"0534"},
+{label:"于都Yudu0797",name:"都",pinyin:"d",zip:"0797"},
+{label:"岳西Yuexi0556",name:"岳",pinyin:"y",zip:"0556"},
+{label:"余干Yugan0793",name:"衡水老白干",pinyin:"h",zip:"0793"},
+{label:"玉环Yuhuan0576",name:"几百",pinyin:"jibai",zip:"0576"},
+{label:"余江Yujiang0701",name:"李白",pinyin:"libai",zip:"0701"},
+{label:"郁南Yunan0766",name:"杜甫",pinyin:"dufu",zip:"0766"},
+{label:"云安Yunan0766",name:"生命",pinyin:"shengming",zip:"0766"},
+{label:"郓城Yuncheng0530",name:"珍贵",pinyin:"zhengui",zip:"0530"},
+{label:"云和Yunhe0578",name:"云",pinyin:"y",zip:"0578"},
+
+]</string>
+</resources>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605

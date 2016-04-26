@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -7,4 +8,15 @@
     <item android:state_enabled="false" android:color="#ff797979"/>
     <item android:color="#ffffffff"/>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true" android:color="#ffffffff"/>
+    <item android:state_pressed="true" android:color="#ffffffff"/>
+    <item android:state_focused="true" android:color="#ffffffff"/>
+    <item android:state_enabled="false" android:color="#ff797979"/>
+    <item android:color="#ffffffff"/>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </selector>

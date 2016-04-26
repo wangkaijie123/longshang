@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,4 +18,25 @@
             android:layout_centerVertical="true" />
     </io.vov.vitamio.widget.CenterLayout>
 
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <io.vov.vitamio.widget.CenterLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <io.vov.vitamio.widget.VideoView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </io.vov.vitamio.widget.CenterLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </RelativeLayout>

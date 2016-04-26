@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/cp"
@@ -45,4 +46,53 @@
         android:hint="输入您的车牌号，例如:京A00001"
         android:textSize="15sp" />
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF" >
+
+        <TextView
+            android:id="@+id/change_remake_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/change_remake_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="确定"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_chepai"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_margin="10dip"
+        android:background="@color/background_gray1"
+        android:hint="输入您的车牌号，例如:京A00001"
+        android:textSize="15sp" />
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

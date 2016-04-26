@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -78,4 +79,86 @@
             android:textSize="10dp" />
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/goback_grxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:layout_width="@dimen/image_20height"
+                android:layout_height="@dimen/image_20height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/go_back" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me"
+                android:textColor="#fff"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/textSize_20username" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/goback_sz"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="电话"
+            android:textColor="#fff"
+            android:textSize="@dimen/textSize_20username" />
+        <TextView
+            android:id="@+id/save_telphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:gravity="right"
+            android:text="@string/save"
+            android:textColor="#fff"
+            android:textSize="@dimen/textSize_20username" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="电话号码：" 
+            android:textColor="@color/background_black"/>
+
+        <com.lst.lstjx.view.DeletableEditText
+            android:id="@+id/telephone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:hint="请输入你的电话号码"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

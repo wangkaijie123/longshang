@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:drawable="@drawable/wo" android:state_focused="true"/>
     <item android:drawable="@drawable/wp"/>
   
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/wo" android:state_focused="true"/>
+    <item android:drawable="@drawable/wp"/>
+  
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </selector>

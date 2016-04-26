@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -68,4 +69,76 @@
         android:textSize="16dip"
         android:textColor="@color/background_black"/>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/goback_sz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/image_20height"
+                android:layout_height="@dimen/image_20height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/go_back" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/set"
+                android:textColor="#fff"
+                android:textSize="@dimen/textSize_20username" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/goback_sz"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="约我"
+            android:textColor="#fff"
+            android:textSize="@dimen/textSize_20username" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:text="龙商家信" 
+        android:textSize="16dip"
+        android:textColor="@color/background_black"/>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </RelativeLayout>

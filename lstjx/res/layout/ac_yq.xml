@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -106,4 +107,114 @@
             android:textSize="15sp" />
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF" >
+
+        <ImageView
+            android:id="@+id/change_remake_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/title_back" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/qy_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/background_gray1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/duanxin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/yq_d"
+            android:textColor="@color/text_black"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/qy_q"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/background_gray1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/qq" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/yq_q"
+            android:textColor="@color/text_black"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/qy_w"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/background_gray1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/weixin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/yq_w"
+            android:textColor="@color/text_black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

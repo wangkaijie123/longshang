@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -22,4 +23,30 @@
      
     </RelativeLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lin_mm_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+             android:layout_centerInParent="true"
+            android:text="他还没有发布任何买卖信息"
+            android:textColor="@color/group_list_gray" />
+
+     
+    </RelativeLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

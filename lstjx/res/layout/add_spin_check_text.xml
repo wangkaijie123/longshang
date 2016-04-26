@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/check_tv"
@@ -9,4 +10,17 @@
     android:textColor="@color/background_black"
     android:textSize="13sp" >
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="5dp"
+    android:singleLine="true"
+    android:textColor="@color/background_black"
+    android:textSize="13sp" >
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </CheckedTextView>

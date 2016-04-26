@@ -12,6 +12,10 @@
             android:id="@+id/de_img_backgroud"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+<<<<<<< HEAD
+=======
+             
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
             android:layout_marginLeft="-200dp"
             android:layout_marginRight="-350dp"
             android:scaleType="center"

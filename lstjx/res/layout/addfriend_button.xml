@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:state_pressed="true"
@@ -6,3 +7,13 @@
         android:drawable="@color/addFriend_light"/>
 
 </selector>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"
+        android:drawable="@color/addFriend_red"/>
+    <item android:state_pressed="false"
+        android:drawable="@color/addFriend_light"/>
+
+</selector>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605

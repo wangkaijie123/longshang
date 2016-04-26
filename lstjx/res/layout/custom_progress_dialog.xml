@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="200dp"
     android:layout_height="50dp"
@@ -30,4 +31,38 @@
             android:textSize="13sp" />
     </LinearLayout>
 
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@drawable/ax7" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:id="@+id/progress_dialog_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="删除中请稍等"
+            android:textColor="@color/background_white"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </RelativeLayout>

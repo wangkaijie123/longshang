@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -10,4 +11,18 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black"
+    android:orientation="vertical" >
+
+    <com.lst.lstjx.view.TouchImageView
+        android:id="@+id/dtimg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

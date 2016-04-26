@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -127,4 +128,135 @@
         android:layout_marginLeft="15dp"
         android:background="#80000000" />
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/goback_fbsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:layout_width="@dimen/image_20height"
+                android:layout_height="@dimen/image_20height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/go_back" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布商品"
+                android:layout_gravity="center_vertical"
+                android:textColor="#fff"
+                android:textSize="@dimen/textSize_20username" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/goback_sz"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="状态"
+            android:textColor="#fff"
+            android:textSize="@dimen/textSize_20username" />
+        <TextView
+            android:id="@+id/save_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:gravity="right"
+            android:text="@string/save"
+            android:textColor="#fff"
+            android:textSize="@dimen/textSize_20username" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/is_sj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/bg_click" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上架"
+            android:textColor="#000000"
+            android:textSize="@dimen/textSize_15possword" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_click"
+            android:src="@drawable/yes"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:background="#80000000" />
+
+    <LinearLayout
+        android:id="@+id/is_xj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:padding="10dp" 
+        android:background="@drawable/bg_click">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下架"
+            android:textColor="#000000"
+            android:textSize="@dimen/textSize_15possword" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/xj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yes"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:background="#80000000" />
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

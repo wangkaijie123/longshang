@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -10,3 +11,17 @@
     android:layout_height="match_parent"
     android:scaleType="fitXY"/>
 </LinearLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+<ImageView 
+    android:id="@+id/image_item_prodrct_detail"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"/>
+</LinearLayout>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605

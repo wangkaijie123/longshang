@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
 
     <!--
@@ -9,3 +10,16 @@
     </style>
 
 </resources>
+=======
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+</resources>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605

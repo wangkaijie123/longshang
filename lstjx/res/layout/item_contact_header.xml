@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -43,4 +44,51 @@
         </RelativeLayout>
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+      
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/group_list_liner" />
+
+        <RelativeLayout
+            android:id="@+id/qun_friend"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#ffffff" >
+
+            <ImageView
+                android:id="@+id/new2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/a_9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/new2"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/new2"
+                android:text="群聊"
+                android:textSize="15dip" />
+        </RelativeLayout>
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </RelativeLayout>

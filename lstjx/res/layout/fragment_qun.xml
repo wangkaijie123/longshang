@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -104,4 +105,112 @@
         </RelativeLayout>
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F3F3" >
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/contactlist_title"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:text="推荐群聊" />
+
+        <RelativeLayout
+            android:id="@+id/new_friend"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#ffffff" >
+
+            <ImageView
+                android:id="@+id/new1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dip"
+                android:src="@drawable/qun_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/new1"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/new1"
+                android:text="龙商买货卖货群"
+                android:textColor="@color/text_huise"
+                android:textSize="15dip" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/group_list_liner" />
+
+        <RelativeLayout
+            android:id="@+id/qun_friend"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#ffffff" >
+
+            <ImageView
+                android:id="@+id/new2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dip"
+                android:src="@drawable/qun_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/new2"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/new2"
+                android:text="龙商发车找车群"
+                android:textColor="@color/text_huise"
+                android:textSize="15sp" />
+        </RelativeLayout>
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dip"
+            android:text="我的群聊" />
+         <RelativeLayout
+            android:id="@+id/qun_my"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#ffffff" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/new3"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/new3"
+                android:text="我的群聊"
+                android:textSize="15dip" />
+
+            <ImageView
+                android:id="@+id/new3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dip"
+                android:src="@drawable/qun_icon" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

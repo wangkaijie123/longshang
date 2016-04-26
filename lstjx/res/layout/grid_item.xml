@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -23,4 +24,31 @@
         android:textColor="#000000" >
     </TextView>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<!-- 
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+ -->
+    <TextView
+        android:id="@+id/itemText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/group_list_liner"
+        android:layout_centerHorizontal="true"
+        android:text="TextView01"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000000" >
+    </TextView>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </RelativeLayout>

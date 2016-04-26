@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:drawable="@drawable/toast_alert_btn_left_pressed" android:state_pressed="true"/>
     <item android:drawable="@drawable/toast_trans_bg"/>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/toast_alert_btn_left_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/toast_trans_bg"/>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </selector>

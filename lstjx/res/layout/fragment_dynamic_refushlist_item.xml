@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -56,4 +57,64 @@
             android:textSize="@dimen/textSize_15" />
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+   
+        android:id="@+id/dynamic_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生命在于运动"
+        android:textColor="@color/zise"
+        android:textSize="@dimen/textSize_15" />
+
+    <TextView
+     
+        android:layout_marginTop="5dp"
+        android:id="@+id/dynamic_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dynamic_title_tv"
+        android:text="大家好我叫王维达 我来自遥远的火星，我喜欢地球，因为地球挺圆的，么么哒"
+        android:textColor="@color/background_black"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/dynamic_content_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_below="@id/dynamic_content_tv"
+        android:src="@drawable/lingshi1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dynamic_content_img"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dynamic_content_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vinder.wang"
+            android:textColor="@color/background_black"
+            android:textSize="@dimen/textSize_15" />
+
+        <TextView
+            android:id="@+id/dynamic_content_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="2015.9.16:28"
+            android:textColor="@color/zise"
+            android:textSize="@dimen/textSize_15" />
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </RelativeLayout>

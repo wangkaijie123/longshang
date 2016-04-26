@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -286,4 +287,294 @@
         </GridView>
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray1"
+    android:orientation="vertical" 
+    android:id="@+id/Lin_deliver">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF" >
+
+        <TextView
+            android:id="@+id/tv_more_photo_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发货找车"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_more_photo_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="发布"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="10dip"
+        android:layout_weight="5"
+        android:background="@color/background_white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/root"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dip"
+                android:background="@drawable/shijian" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dip"
+                android:text="装车时间 :"
+                android:textColor="@color/black_textview" />
+
+            <TextView
+                android:id="@+id/timechoose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="23dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="请选择日期"
+                android:textColor="@color/black_textview" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dip"
+            android:background="@color/group_list_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dip"
+                android:background="@drawable/fachedi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dip"
+                android:text="发车地 :    "
+                android:textColor="@color/black_textview" />
+
+            <TextView
+                android:id="@+id/startingchoose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="23dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="请选择发车地"
+                android:textColor="@color/black_textview" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dip"
+            android:layout_marginLeft="120dip"
+            android:background="@color/group_list_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+           
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31dip"
+                android:text="详细地址 :"
+                android:textColor="@color/black_textview" />
+
+            <EditText
+                android:id="@+id/starting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="23dip"
+                android:background="@null"
+                android:hint="请输入详细发车地址"
+                android:scrollHorizontally="false"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dip"
+            android:background="@color/group_list_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dip"
+                android:background="@drawable/mudidi" />
+
+            <TextView
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dip"
+                android:text="目的地 :    "
+                android:textColor="@color/black_textview" />
+
+            <TextView
+                android:id="@+id/endingchoose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="23dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="请选择目的地"
+                android:textColor="@color/black_textview" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dip"
+            android:layout_marginLeft="120dip"
+            android:background="@color/group_list_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@color/background_white"
+            android:orientation="horizontal" >
+
+            
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31dip"
+                android:text="详细地址 :"
+                android:textColor="@color/black_textview" />
+
+            <EditText
+                android:id="@+id/ending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="23dip"
+                android:background="@null"
+                android:hint="请输入详细目的地"
+                android:scrollHorizontally="false"
+                android:textColor="@color/black_textview"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.8dip"
+            android:background="@color/group_list_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="4"
+        android:background="@color/background_white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dip"
+            android:text="货物信息 :"
+            android:textColor="@color/black_textview" />
+
+        <EditText
+            android:id="@+id/publish_dynamic_photo_et_content"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/mGrayWhite"
+            android:gravity="top"
+            android:hint="请用一句话描述货源，比如：南京到北京有10吨普货，需10米左右货车.."
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:textSize="15sp" />
+
+        <GridView
+            android:id="@+id/choose_photo_more_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:horizontalSpacing="3dp"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:verticalSpacing="5dp" >
+        </GridView>
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

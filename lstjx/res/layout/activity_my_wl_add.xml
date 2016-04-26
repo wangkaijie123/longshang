@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -32,4 +33,40 @@
             android:textSize="20dip" />
     </RelativeLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lin_wl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_wl_push"
+            android:layout_centerHorizontal="true"
+            android:text="你还没有发布任何物流信息"
+            android:textColor="@color/group_list_gray" />
+
+        <Button
+            android:id="@+id/tv_wl_push"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="80dip"
+            android:layout_marginRight="80dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/xinprngyou_jieshou"
+            android:text="发布物流"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

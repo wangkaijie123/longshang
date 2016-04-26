@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -8,4 +9,16 @@
     <item android:color="#cccccc"/>
     <!-- default -->
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:color="#00cc00"/>
+    <!-- pressed -->
+    <item android:state_selected="true" android:color="#00cc00"/>
+    <!-- focused -->
+    <item android:color="#cccccc"/>
+    <!-- default -->
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </selector>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -338,4 +339,346 @@
             android:textColor="@color/text_white" />
     </TableLayout>
 </ScrollView>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CC2FF"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/goback_wd"
+            android:layout_width="@dimen/image_20height"
+            android:layout_height="@dimen/image_20height"
+            android:background="@drawable/go_back" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/goback_wd"
+            android:layout_toRightOf="@+id/goback_wd"
+            android:text="@string/mine"
+            android:textColor="#fff"
+            android:textSize="@dimen/textSize_15possword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/goback_wd"
+            android:layout_centerHorizontal="true"
+            android:text="@string/applyFor"
+            android:textColor="#fff"
+            android:textSize="@dimen/textSize_15possword" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0EFF4" 
+        android:scrollbars="none">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/login_uername"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/loginname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="请输入6-12位数字或。。。"
+                android:maxLength="12"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_password"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/pwd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:hint="请输入6-12位数字或。。。"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_password_yes"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="再输入一次密码"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_yes_name"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/realname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="输入汉字或英文"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/login_yes_zlcl"
+                android:textColor="@color/text_black" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/a_9" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_district"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/area"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="选择省市"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_district_particular"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="街道/小区"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/login_phoneNumber"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/telphone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="输入正确手机号"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_postbox"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="输入正确邮箱号"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_guanwang"
+                android:textColor="@color/text_black" />
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="输入正确网址"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#D5D5D5" />
+
+        <Button
+            android:id="@+id/send_sj"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/login_apply"
+            android:textColor="@color/text_white" />
+    </TableLayout>
+</ScrollView>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -12,4 +13,20 @@
         android:dividerHeight="1px" >
     </ListView>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <ListView
+        android:id="@+id/id_list_dir"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#EEE3D9"
+        android:dividerHeight="1px" >
+    </ListView>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </RelativeLayout>

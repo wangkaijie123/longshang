@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -47,3 +48,54 @@
     </RelativeLayout>
 
 </LinearLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.lst.lstjx.view.RoundImageView
+        android:id="@+id/head_picture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/lingshi1" >
+        </com.lst.lstjx.view.RoundImageView>
+
+    <RelativeLayout
+        android:layout_width="205dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/Name"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/distance" 
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/sex"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/name"
+            android:src="@drawable/boy" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605

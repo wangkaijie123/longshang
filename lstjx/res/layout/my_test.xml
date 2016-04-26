@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -19,3 +20,26 @@
 	        android:progressDrawable="@drawable/progress" >  
 	    </ProgressBar>
 </LinearLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <WebView   
+        android:id="@+id/webview" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        /> 
+     <ProgressBar  
+	        android:id="@+id/pb"  
+	        style="?android:attr/progressBarStyleHorizontal"  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="3dip"  
+	        android:indeterminateOnly="false"  
+	        android:max="100"  
+	        android:progressDrawable="@drawable/progress" >  
+	    </ProgressBar>
+</LinearLayout>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605

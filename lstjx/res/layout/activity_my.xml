@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -258,4 +259,264 @@
             android:background="@drawable/back" />
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <LinearLayout
+        android:id="@+id/mine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_click"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/user_titile"
+            android:layout_width="@dimen/icon_50width"
+            android:layout_height="@dimen/icon_50width"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/a_9" />
+
+        <LinearLayout
+            android:layout_width="@dimen/layout_150width"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.26"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+               	android:gravity="center_vertical"
+                android:text="@string/userName"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/textSize_20username" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" 
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_ID"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textSize_15possword" />
+
+                <TextView
+                    android:id="@+id/user_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/user_id"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textSize_15possword" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/image_20height"
+            android:layout_height="@dimen/image_20height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/photo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/my_dynamic"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/bg_click"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="@dimen/image_25width"
+                android:layout_height="@dimen/image_25width"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/wodemaimai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/my_mm"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/textSize_15possword" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/image_20height"
+                android:layout_height="@dimen/image_20height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wire_0.5height"
+            android:layout_marginLeft="15dp"
+            android:background="#66000000"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:id="@+id/my_activity_my_product"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/bg_click"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="@dimen/image_25width"
+                android:layout_height="@dimen/image_25width"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/wodewuliu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/my_wl"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/textSize_15possword" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/image_20height"
+                android:layout_height="@dimen/image_20height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wire_0.5height"
+            android:layout_marginLeft="15dp"
+            android:background="#66000000"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:id="@+id/nearPeople"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/bg_click"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="@dimen/image_25width"
+                android:layout_height="@dimen/image_25width"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/wodecheliang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/my_cl"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/textSize_15possword" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/image_20height"
+                android:layout_height="@dimen/image_20height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yq_button"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_click"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="@dimen/image_25width"
+            android:layout_height="@dimen/image_25width"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/yaoqing" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/yq"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/textSize_15possword" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="@dimen/image_20height"
+            android:layout_height="@dimen/image_20height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/back" />
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -87,4 +88,95 @@
         </RelativeLayout>
     </LinearLayout>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_click"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_white"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/userface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qq" />
+
+        <TextView
+            android:id="@+id/uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="uname"
+            android:textColor="@color/background_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:background="@color/background_white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dip"
+            android:scrollHorizontally="false"
+            android:text="content"
+            android:textColor="@color/actionsheet_gray" />
+
+        <com.lst.lstjx.view.MyGridView
+            android:id="@+id/more_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="5dp" >
+        </com.lst.lstjx.view.MyGridView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:background="@color/background_white" >
+
+            <TextView
+                android:id="@+id/addtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:text="addtime"
+                android:textColor="@color/actionsheet_gray" />
+
+            <ImageView
+                android:id="@+id/shanchu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@+id/fenxiang"
+                android:background="@drawable/goods_shanchu" />
+
+            <ImageView
+                android:id="@+id/fenxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/goods_fenxiang" />
+        </RelativeLayout>
+    </LinearLayout>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </LinearLayout>

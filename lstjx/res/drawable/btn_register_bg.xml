@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -7,4 +8,15 @@
     <item android:drawable="@drawable/yuanjiao_2" android:state_enabled="true"/>
     <item android:drawable="@drawable/yuanjiao_1"/>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/yuanjiao_3" android:state_pressed="true"/>
+ 
+    <item android:drawable="@drawable/yuanjiao_1" android:state_enabled="false"/>
+    <item android:drawable="@drawable/yuanjiao_2" android:state_enabled="true"/>
+    <item android:drawable="@drawable/yuanjiao_1"/>
+
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </selector>

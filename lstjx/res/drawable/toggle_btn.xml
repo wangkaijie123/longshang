@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true" android:drawable="@drawable/toggle_btn_checked" />
     <item android:drawable="@drawable/toggle_btn_unchecked" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/toggle_btn_checked" />
+    <item android:drawable="@drawable/toggle_btn_unchecked" />
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </selector>

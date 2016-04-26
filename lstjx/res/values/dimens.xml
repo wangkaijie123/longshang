@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
 
     <!-- Default screen margins, per the Android Design guidelines. -->
@@ -34,4 +35,42 @@
     <dimen name="popmenu_yoff">5.0dip</dimen>
     <dimen name="dip2pix">1.0dip</dimen>
  <dimen name="height_top_bar">48dp</dimen>
+=======
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textSize_20username">20dp</dimen>
+    <dimen name="textSize_15">15sp</dimen>
+    <dimen name="textSize_15possword">15dp</dimen>
+    <dimen name="go_item_20width">20dp</dimen>
+    <dimen name="image_25width">30dp</dimen>
+    <dimen name="image_20height">20dp</dimen>
+    <dimen name="icon_50width">50dp</dimen>
+    <dimen name="layout_150width">150dp</dimen>
+    <dimen name="wire_0.5height">0.5dp</dimen>
+    <dimen name="line_dynamic">30dp</dimen>
+    <dimen name="item_goods_img_height">80dp</dimen>
+    <dimen name="item_goods_img_width">80dp</dimen>
+    <dimen name="item_goods_img_padding">5dp</dimen>
+    <dimen name="item_goods_height">90dp</dimen>
+    <dimen name="item_goods_name_padding">5dp</dimen>
+    <dimen name="dynamic_detail_headimg_height">50dp</dimen>
+    <dimen name="dynamic_detail_headimg_width">50dp</dimen>
+    <dimen name="dynamic_detail_linear_hight">50dp</dimen>
+    <dimen name="dynamic_detail_list_hight">400dp</dimen>
+    <dimen name="dynamic_detail_ic_sex_hight">45dp</dimen>
+    <dimen name="dynamic_detail_ic_sex_width">45dp</dimen>
+    <dimen name="dynamic_detail_comment_textsize">15sp</dimen>
+    <dimen name="dynamic_detail_comment_zan_magin">100dp</dimen>
+    <dimen name="dynamic_detail_bootom_img_hight">20dp</dimen>
+    <dimen name="dynamic_detail_bootom_img_width">20dp</dimen>
+    <dimen name="more_activity_weibo_mag_top">60dp</dimen>
+    <dimen name="more_icon_magtop_img_text">10dp</dimen>
+    <dimen name="popmenu_width">160.0dip</dimen>
+    <dimen name="popmenu_yoff">5.0dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+ <dimen name="height_top_bar">48dp</dimen>
+>>>>>>> e91e926442dc022c63334bc3f3ca8926acdda605
 </resources>
